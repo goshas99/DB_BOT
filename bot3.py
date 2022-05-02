@@ -8,7 +8,7 @@ connect = psycopg2.connect(database='Sensors_db', user='postgres', password='Get
 print("Database opened successfully")
 cursor = connect.cursor()
 
-bot = telebot.TeleBot('5125882580:AAHKmBTc5drvSuT1k3R74460iEY-sHMpJmM')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=["start"])
